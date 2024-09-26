@@ -1,4 +1,3 @@
-.env
-env/
-deepface/
-project/__pychache__/
+/env/
+/deepface/
+project/__pycache__/
