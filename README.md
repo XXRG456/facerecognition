@@ -21,7 +21,6 @@ This project implements a celebrity face recognition system using Python. The sy
 - Face Detection: Utilises DeepFace to handle raw image uploads to identify faces.
 - Face Similarity: Feeds the preprocessed images into a Siamese network to output a similarity score between two faces.
 - Custom Siamese Network: Trained on labeled data to output similarity between images.
-- **Crossvalidation**...
 
 ## Installation
 
