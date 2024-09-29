@@ -14,7 +14,7 @@
 
 ## Introduction
 
-This project implements a face recognition system using Python. The system leverages the DeepFace library [DeepFace](https://github.com/serengil/deepface) to detect and align faces within an image and a Siamese neural network for measuring similarity between faces. The model is designed to distinguish between two face images and determine whether they represent the same individual. See kaggle notebook for training: https://www.kaggle.com/code/roshangidda/classification-project
+This project implements a celebrity face recognition system using Python. The system leverages the DeepFace library [DeepFace](https://github.com/serengil/deepface) to detect and align faces within an image and a Siamese neural network for measuring similarity between faces. The model is designed to distinguish between two face images and determine whether they represent the same individual. See kaggle notebook for training: https://www.kaggle.com/code/roshangidda/classification-project
 
 ## Features
 
