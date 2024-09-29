@@ -5,11 +5,12 @@ from project import detect_face, test_image
 from project import create_prediction_pairs, plot_pairs, concat_pair
 import numpy as np
 import matplotlib.pyplot as plt
+import cv2
 
 
 
 
-(X_train_1, X_train_2, y_train), (X_val_1, X_val_2, y_val) = Train, Val
+# (X_train_1, X_train_2, y_train), (X_val_1, X_val_2, y_val) = Train, Val
 
 
 # results = model.evaluate([X_train_2, X_train_1], y_train)
@@ -44,8 +45,9 @@ def make_prediction(image, anchor_images,face = False ,display = False):
         
         detection_results.append(results)
             
+    if display: print(detection_results)
     return detection_results
 
 
-
-print(make_prediction(test_image, anchor_images, display=True))
+# my_image = cv2.imread('YOUR_PATH')
+make_prediction(test_image, anchor_images, display=True)
