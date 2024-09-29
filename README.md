@@ -70,7 +70,7 @@ The face recognition system uses a Siamese neural network to compare two face im
 Before feeding images into the Siamese network, several preprocessing steps are applied:
 
 - Face Detection: DeepFace detects and crops faces.
-- Resising: The images are resized to a fixed size for input into the neural network.
+- Resizing: The images are resized to a fixed size for input into the neural network.
 - Normalisation: The pixel values are normalised to ensure consistency in training and inference.
 
 ## Predicting 
