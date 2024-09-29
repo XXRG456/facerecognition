@@ -1,3 +1,7 @@
 /env/
 /deepface/
 project/__pycache__/
+project/siamese_100x100_v1_gpu/checkpoint_0.h5
+project/siamese_100x100_v1_gpu/checkpoint_1.h5
+project/siamese_100x100_v1_gpu/checkpoint_3.h5
+project/siamese_100x100_v1_gpu/checkpoint.h5
