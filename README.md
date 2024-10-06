@@ -46,6 +46,18 @@ Key dependencies are:
 2. Run:  ``` python main.py ```
 3. View output: The system will return a similarity score between the two images, where a score closer to 0 means the images represent the same person, and a score closer to 1 means they represent different people.
 
+### Front-end Usage
+
+1. Drag and drop image into dropbox for classification. Or click dropbox to open folder and select image:
+<img src = "images/screenshot1.jpeg" alt = "Upload screenshot" height = '400'/>
+
+2. Wait for model to predict:
+<img src = "images/screenshot2.jpeg" alt = "Upload screenshot" height = '400'/>
+
+3. Inspect results:
+<img src = "images/screenshot3.jpeg" alt = "Upload screenshot" height = '400'/>
+
+
 ## Model Architecture
 
 The face recognition system uses a Siamese neural network to compare two face images. The architecture consists of:
